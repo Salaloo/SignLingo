@@ -8,11 +8,12 @@ function App() {
   // Sample data structure for flashcard videos by category
   const flashcardsData = {
     ABCs: [{ title: 'Letter A', videoUrl: '/videos/letter-a.mp4' }],
-    BasicWords: [{ title: 'Hello', videoUrl: '/videos/hello.mp4' }],
+    BasicVocab: [{ title: 'Hello', videoUrl: '/videos/hello.mp4' }],
     Colors: [{ title: 'Red', videoUrl: '/videos/red.mp4' }],
     Travel: [{ title: 'Airport', videoUrl: '/videos/airport.mp4' }],
     Cooking: [{ title: 'Cook', videoUrl: '/videos/cook.mp4' }],
     Sports: [{ title: 'Soccer', videoUrl: '/videos/soccer.mp4' }],
+    CS: [{ title: 'Hacker', videoUrl: '/videos/CS.mp4' }],
   };
 
   const toggleDropdown = (category) => {

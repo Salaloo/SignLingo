@@ -26,6 +26,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: flex-start; /* Align children to the start of the flex container (top) */
   min-width: 320px;
   min-height: 100vh;
 }
