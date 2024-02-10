@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import logo from '/SignLingo.png'
 
+import Leap from 'leapjs';
 import './App.css'
 
 function App() {
